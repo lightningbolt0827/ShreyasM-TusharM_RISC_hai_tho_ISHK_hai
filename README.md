@@ -1,1 +1,6 @@
-# ShreyasM-TusharM_RISC_hai_tho_ISHK_hai
+# Colorimeter
+## Introduction
+## Overview of the Project
+## Components Required
+## Circuit Connection Diagram
+## Table for Pin connection
