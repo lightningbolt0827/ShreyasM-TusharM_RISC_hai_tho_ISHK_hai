@@ -21,12 +21,35 @@ A colorimeter is a laboratory device used to measure the absorbance of light at 
 ![Colorimeter_Circuit](https://github.com/lightningbolt0827/ShreyasM-TusharM_RISC_hai_tho_ISHK_hai/assets/109969895/67274c3d-f127-4e48-a6ae-a681b33005e1)
 
 
-## Table for Pin connection
+## Tables for Pin connection
 
 | VSD Squadron Mini  | 74HC595 |
 | ------------- | :-------------: |
 | 3.3 V | Pin 16 (Vcc) and Pin 10 (~ Master Reset) |
 | GND | Pin 8 (GND) and Pin 13 (~ Output Enable) |
 | PC0 | Pin 11 (Clock) |
-| PC1 | Pin 12 ( Latch Pin) |
+| PC1 | Pin 12 (Latch Pin) |
 | PC2 | Pin 14 (Serial Data In) |
+
+| VSD Squadron Mini  | 4 Bit Seven Segment Display |
+| ------------- | :-------------: |
+| PC3 | D1 |
+| PC4 | D2 |
+| PC5 | D3 |
+| PC6 | D4 |
+
+| VSD Squadron Mini  | RGB LED |
+| ------------- | :-------------: |
+| PD1 | R |
+| PD3 | G |
+| PD2 | B |
+| GND | Common Cathode |
+
+| VSD Squadron Mini  | Others |
+| ------------- | :-------------: |
+| PD0 | Push Button (Signal)|
+| PA1 | LDR (Signal) |
+| GND | Push Button (GND) and LDR (GND) |
+
+
+
