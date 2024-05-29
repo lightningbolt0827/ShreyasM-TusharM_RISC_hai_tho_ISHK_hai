@@ -25,8 +25,8 @@ A colorimeter is a laboratory device used to measure the absorbance of light at 
 
 | VSD Squadron Mini  | 74HC595 |
 | ------------- | :-------------: |
-| 3.3 V | Pin 16 (Vcc) and Pin 10 (~ Master Reset) |
-| GND | Pin 8 (GND) and Pin 13 (~ Output Enable) |
+| 3.3 V | Pin 16 (Vcc) and Pin 10 (~Master Reset) |
+| GND | Pin 8 (GND) and Pin 13 (~Output Enable) |
 | PC0 | Pin 11 (Clock) |
 | PC1 | Pin 12 (Latch Pin) |
 | PC2 | Pin 14 (Serial Data In) |
