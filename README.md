@@ -7,7 +7,7 @@ A colorimeter is a laboratory device used to measure the absorbance of light at 
 
 | Component | Quantity |
 | ------------- | :-------------: |
-| VSD Squadron Mini  | 1 |
+| VSD Squadron Mini Board  | 1 |
 | RGB LED (Common Cathode)  | 1  |
 | 1.1 KΩ Resistor | 5 |
 | 11 KΩ Resistor | 1|
