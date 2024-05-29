@@ -5,8 +5,12 @@ A colorimeter is a laboratory device used to measure the absorbance of light at 
 Colorimeters, if accessible to households, could be used for practical applications like food quality control, water testing, and gardening. For instance, they could help ensure the freshness of fruits based on their color, test the purity of tap water, or analyze soil nutrients for home gardening. These applications could contribute to health, food safety, and environmental conservation efforts at a personal level.
 
 ## Overview of the Project
+
+We are developing a colorimeter using an RGB LED to produce a spectrum of wavelengths by adjusting the intensity of the red, green, and blue LEDs individually. The emitted light passes through a solution sample in a cuvette positioned between the LED and a light-dependent resistor (LDR). LDR is a special resistor which creates variying voltage drop across it based on the intensity of incident light. The solution absorbs specific wavelengths based on the solute's concentration and nature of the solute. Unabsorbed light is incident on the LDR , where voltage variations are recorded to calculate the corresponding intensity of a particular wavelength and hence the intesity across the spectrum. The analysis is performed in a closed black box to eliminate the external light sources from disturbing the analysis. A Zero Analysis is performed with only the pure solvent (e.x, distilled water), prior to placing the sample with the solute and the difference between the actual analysis and zero analysis is taken. This significantly reduces the the external noise from other light sources and minor defects.
+
 ![Components of a Colorimter](https://github.com/lightningbolt0827/ShreyasM-TusharM_RISC_hai_tho_ISHK_hai/assets/109969895/23a712fa-ae34-4a20-b27b-0ec177968f86)
 
+The wavelength and light intensity are then displayed on a 4-bit 7-segment display. To efficiently transfer data to the display unit and minimize the number of pins required, we are using a Serial-In-Parallel-Out (SIPO) shift register.
 
 ## Components Required
 
