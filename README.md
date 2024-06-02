@@ -60,6 +60,14 @@ The wavelength and light intensity of the light are then displayed on a 4-bit 7-
 | PA1 | LDR (Signal) |
 | GND | Push Button (GND) and LDR (GND) |
 
+## Working Video
+
+
+https://github.com/lightningbolt0827/ShreyasM-TusharM_RISC_hai_tho_ISHK_hai/assets/109969895/b69da591-a9f3-4f0c-9e04-2371d99b8688
+
+![image](https://github.com/lightningbolt0827/ShreyasM-TusharM_RISC_hai_tho_ISHK_hai/assets/109969895/38d6c927-ac69-4696-8597-4ffe57d3ab09)
+
+
 ## Code
 
 ```c
