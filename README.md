@@ -146,7 +146,7 @@ void DisplayDigit(unsigned char num, int  digit)
 	shiftout(DATAPIN, CLOCKPIN, 1, table[num]);
 	GPIO_WriteBit(GPIO_PORT, LATCHPIN, 1);
   
-    if (digit == 0)
+    if(digit == 0)
 	{
 		GPIO_WriteBit(GPIO_PORT, DATA_1, 1);
 		Delay_Ms(4);
